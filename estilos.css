@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    background-color: #d3d3d3;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+}
+.carrusel{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.items{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 40px 0px;
+}
+.item{
+    min-width: 300px;
+    max-width: 300px;
+    height: 300px;
+    outline: 2px solid black;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item:hover{
+    transform: scale(1.2);
+}
+h1{
+    font-size: 70px;
+    padding: 1px;
+    align-self: flex-end;
+    font-family: 'Times New Roman', Times, serif;
+}
+#maquina1{
+    display: inline-block;
+    align-self: first baseline;      
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-right: 2px solid black;
+    margin: 0;
+}
+#maquina2{
+    display: inline-block;
+    font-size: 50px;
+    font-family: Garamond, serif;
+    border-right: 2px solid black;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+#maquina3{
+    display: inline-block;      
+    font-size: 50px;
+    font-family: Garamond, serif;
+    border-right: 2px solid black;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+#maquina4{
+    display: inline;      
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border-right: 3px solid black;
+}
+.sisifo{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cita{
+    border: 2px solid black;
+    padding: 2px;
+    max-width: 350px;
+    max-height: 200px;
+}
